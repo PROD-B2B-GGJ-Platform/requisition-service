@@ -1,0 +1,7 @@
+com\platform\talent\requisition\domain\model\Requisition.class
+com\platform\talent\requisition\domain\model\Requisition$RequisitionBuilder.class
+com\platform\talent\requisition\api\RequisitionController.class
+com\platform\talent\requisition\RequisitionServiceApplication.class
+com\platform\talent\requisition\domain\model\RequisitionStatus.class
+com\platform\talent\requisition\service\RequisitionService.class
+com\platform\talent\requisition\repository\RequisitionRepository.class
