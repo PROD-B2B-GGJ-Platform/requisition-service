@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: requisition-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: requisition-service
+  template:
+    metadata:
+      labels:
+        app: requisition-service
+    spec:
+      containers:
+      - name: requisition-service
+        image: gograbjob/requisition-service:10.0.0.1
+        ports:
+        - containerPort: 8500
